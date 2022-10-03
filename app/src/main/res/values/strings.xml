@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JuneGhrayeb</string>
+    <string name="setting">setting</string>
+    <string name="help">help</string>
+    <string name="home_page">home page</string>
+    <string name="sign_up">sign up</string>
+    <string name="login">login</string>
+    <string name="phone_number">Phone number</string>
+    <string name="fut_kit">Fut Kit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="cancel">cancel</string>
+    <string name="signup_page">signup page</string>
+</resources>

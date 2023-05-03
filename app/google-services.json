@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96534928574",
+    "project_id": "juneghrayeb-915a8",
+    "storage_bucket": "juneghrayeb-915a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96534928574:android:4d5eb92cae9364674852ef",
+        "android_client_info": {
+          "package_name": "com.example.juneghrayeb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96534928574-m7s7qbqijndmthsr4rtc0ss78i44td56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenKpUnAtyI7ylPIVh3IgtQgVbjyiFV6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96534928574-m7s7qbqijndmthsr4rtc0ss78i44td56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

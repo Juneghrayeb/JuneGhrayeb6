@@ -1,5 +1,6 @@
 package com.example.juneghrayeb;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,20 +8,31 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     EditText editTextTextPassword, editTextTextEmailAddress;
     Button buttonlogin, buttonsignup;
     SharedPreferences preferences;
 
+    private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //connect to the firebase of the project
+        mAuth = FirebaseAuth.getInstance();
+
 
         editTextTextEmailAddress = findViewById(R.id.editTextTextEmailAddress);
         editTextTextPassword = findViewById(R.id.editTextTextPassword);
@@ -29,6 +41,33 @@ public class MainActivity extends AppCompatActivity {
         buttonsignup = findViewById(R.id.buttonsignup);
 
         preferences = getSharedPreferences("userinfo", 0);
+
+    }
+    //implement sign in method with login of behaviour
+    public void signIn(String email, String password){
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            // you can do intent and move to next page
+                            Log.w("FIREBASE", "createUserWithEmail:success");
+
+                            Intent i_mail = new Intent(MainActivity.this, HomeActivty.class);
+                            startActivity(i_mail);
+
+                        } else {
+
+                            // If sign in fails, display a message to the user.
+                            Toast.makeText(MainActivity.this, "Authentication failed.",
+                                    Toast.LENGTH_SHORT).show();
+                            Log.w("FIREBASE", "createUserWithEmail:failure", task.getException());
+                        }
+
+                        // ...
+                    }
+                });
     }
 
     public void login(View view) {
@@ -44,12 +83,8 @@ public class MainActivity extends AppCompatActivity {
         String registeredMail = preferences.getString("username", "");
         String registeredPassword = preferences.getString("username", "");
 
-        if (input_mail.equals(registeredMail) && input_password.equals(registeredPassword)) {
-            Intent i_mail = new Intent(this, HomeActivty.class);
-            startActivity(i_mail);
-        } else {
-            Toast.makeText(this, "incorrect credentials!", Toast.LENGTH_SHORT).show();
-        }
+signIn(input_mail,input_password);
+
     }
 
     public void onBackPressed() {//is called when the user clicks on the back button

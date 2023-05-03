@@ -4,14 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/drawable/custom_edittext.xml" value="0.169" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.183" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1505" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/drawable/roundbutton.xml" value="0.2635" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_camraactivity.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_carts_footballshirts.xml" value="0.2546875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_cartsnationalshirts.xml" value="0.232" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_cartsspecialeddition.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_custom_gallery.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_footballshirts.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_gallery.xml" value="0.2546875" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_help_center.xml" value="0.26875" />
-        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_home_activty.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_home_activty.xml" value="0.1" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_listactivity.xml" value="0.26875" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_setting.xml" value="0.26875" />
-        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_signuppage.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_national_kits.xml" value="0.25" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_nationalshirts.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_notfication.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_recycler_view.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_setting.xml" value="0.2" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_signuppage.xml" value="0.1" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_specialedditionkits.xml" value="0.25" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/cartnationalrow.xml" value="0.2015625" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/galleryitem.xml" value="0.26875" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/recycler_view_row.xml" value="0.22" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/recyclerview_rowsp.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/layout/recyclerviewrowforfooyballshirts.xml" value="0.25" />
         <entry key="..\:/Users/Juneg/AndroidStudioProjects/JuneGhrayeb/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>
@@ -21,5 +41,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

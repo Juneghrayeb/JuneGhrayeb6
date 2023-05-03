@@ -12,4 +12,44 @@
     <string name="signup">Signup</string>
     <string name="cancel">cancel</string>
     <string name="signup_page">signup page</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="price">Name</string>
+    <string name="place">Name</string>
+    <string name="phonenumber">Name</string>
+    <string name="button">Button</string>
+    <string name="h1">Name</string>
+    <string name="h2">Name</string>
+    <string name="h3">Name</string>
+    <string name="ok">Button</string>
+    <string name="email2">Email</string>
+    <string name="password2">Password</string>
+    <string name="fut_kit4">Fut Kit</string>
+    <string name="the_best_shop_for_football_kits">The best shop for football kits</string>
+    <string name="national_teams_kits">National teams kits</string>
+    <string name="national_teams">national_teams</string>
+    <string name="brazil">Brazil</string>
+    <string-array name="national_kits_full_txt">
+        <item>Brazil</item>
+        <item>Argantine</item>
+        <item>Portugal </item>
+        <item>France</item>
+        <item>England</item>
+    </string-array>
+    <string-array name="football_shirts_full_txt">
+        <item>Barcelona</item>
+        <item>Real madrid</item>
+        <item>PSG</item>
+        <item>liverpool</item>
+        <item>Man Utd</item>
+    </string-array>
+    <string-array name="special_eddition_full_text">
+        <item>mardona</item>
+        <item>ronaldo</item>
+        <item>messi</item>
+        <item>real madrid</item>
+        <item>Psg</item>
+    </string-array>
+
+
 </resources>

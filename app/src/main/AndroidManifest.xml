@@ -3,40 +3,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.juneghrayeb">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.hardware.camera2.full" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="June  App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JuneGhrayeb"
         tools:targetApi="31">
         <activity
+            android:name=".cartsspecialeddition"
+            android:exported="false" />
+        <activity
+            android:name=".specialedditionkits"
+            android:exported="false" />
+        <activity
+            android:name=".cartsFootballshirts"
+            android:exported="false" />
+        <activity
+            android:name=".cartsnationalshirts"
+            android:exported="false" />
+        <activity
+            android:name=".Footballshirts"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Receiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".MyIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".nationalshirts"
+            android:exported="false" />
+        <activity
+            android:name=".camraactivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomGalleryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".signuppage"
             android:exported="false" />
         <activity
-            android:name=".listactivity"
-            android:exported="false" />
-        <activity
-            android:name=".setting"
-            android:exported="false" />
-        <activity
-            android:name=".HelpCenter"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivty"
-            android:exported="false" />
+            android:exported="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
